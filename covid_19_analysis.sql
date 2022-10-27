@@ -1,3 +1,8 @@
+/*
+Covid-19 Data Exploration 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
+
 -- Looking at total deaths vs population
 SELECT location, date_recorded, total_cases, new_cases, total_deaths, population
 FROM covid_deaths
